@@ -1,11 +1,11 @@
 """Example using Plotly to create interactive charts."""
+
 import pandas as pd
-from src.data_loader import load_game_sessions
-import plotly.graph_objects as go
 import plotly.express as px
+from data_loader import load_game_sessions
 
 def create_plotly_html():
-    """Create interactive visualizations using Plotly."""
+    """Create interactive visualizations using Plotly, mit separater JS-Datei für Offline-Nutzung"""
     df = load_game_sessions()
     
     # Create a pivot table
@@ -30,8 +30,10 @@ def create_plotly_html():
     )
     
     # Save to HTML
-    fig.write_html('docs/plotly.html')
-    print("Created docs/plotly.html")
+    # erstellt eine separate 4 MB Datei "plotly.min.js"
+    fig.write_html('docs/plotly.html', include_plotlyjs='directory')
+
+    print("Created docs/plotly.html and docs/plotly.min.js")
 
 if __name__ == "__main__":
     create_plotly_html()
