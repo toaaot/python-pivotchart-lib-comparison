@@ -4,11 +4,11 @@
 
 - [ ] update README/TODO
 - [ ] add Copilot instruction file
-- [ ] add and test HTML page creation
-- [ ] add main.py
-- [ ] add unit tests
+- [ ] test hvplot.html
+- [ ] test pivottablejs.html
+- [ ] test plotly.html
+- [ ] check coding rules / style guide
 
 ## Future Features
 
-- [ ] Add dark mode
-- [ ] Integrate Stripe API
+- [ ] combine date+time into one

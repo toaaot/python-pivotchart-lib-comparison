@@ -1,6 +1,7 @@
 """Example using Bokeh to create interactive visualizations."""
+
 import pandas as pd
-from src.data_loader import load_game_sessions
+from data_loader import load_game_sessions
 from bokeh.plotting import figure, output_file, save
 from bokeh.models import HoverTool
 from bokeh.transform import dodge, cumsum

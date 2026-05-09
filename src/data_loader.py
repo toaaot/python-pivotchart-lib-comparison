@@ -36,6 +36,7 @@ def load_game_sessions(filepath=None):
     
     # Data type conversions
     df['RollDate'] = pd.to_datetime(df['RollDate'])
+    df['RollTime'] = pd.to_timedelta(df['RollTime']) 
     df['TargetNum'] = pd.to_numeric(df['TargetNum'], errors='coerce')
     
     return df
