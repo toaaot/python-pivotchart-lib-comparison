@@ -2,10 +2,9 @@
 
 ## High Prio
 
-- [ ] update README
+- [ ] update README/TODO
 - [ ] add Copilot instruction file
 - [ ] add and test HTML page creation
-- [ ] reorganize folder structure (remove examples folder...)
 - [ ] add main.py
 - [ ] add unit tests
 
