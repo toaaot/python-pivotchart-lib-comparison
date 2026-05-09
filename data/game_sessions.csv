@@ -1,0 +1,147 @@
+SessionName,Player,Character,ActionType,TargetNum,RollDate,RollTime,RollOutcome
+Dragon's Keep Session 1,Alice,Thordak the Barbarian,Attack,12,2026-01-15,19:30,Hit
+Dragon's Keep Session 1,Bob,Elara the Rogue,Stealth,14,2026-01-15,19:35,Success
+Dragon's Keep Session 1,Charlie,Mage Marcus,Spell Cast,16,2026-01-15,19:40,Critical Hit
+Dragon's Keep Session 1,Alice,Thordak the Barbarian,Attack,10,2026-01-15,19:45,Miss
+Dragon's Keep Session 1,Bob,Elara the Rogue,Pickpocket,13,2026-01-15,19:50,Success
+Dragon's Keep Session 2,Charlie,Mage Marcus,Spell Cast,15,2026-01-22,19:30,Hit
+Dragon's Keep Session 2,Alice,Thordak the Barbarian,Attack,11,2026-01-22,19:35,Hit
+Dragon's Keep Session 2,Bob,Elara the Rogue,Backstab,17,2026-01-22,19:40,Critical Hit
+Dragon's Keep Session 2,Charlie,Mage Marcus,Perception,12,2026-01-22,19:45,Success
+Dragon's Keep Session 2,Alice,Thordak the Barbarian,Defense,14,2026-01-22,19:50,Success
+Lost Mines Session 1,Alice,Thordak the Barbarian,Attack,13,2026-02-05,20:00,Hit
+Lost Mines Session 1,Bob,Elara the Rogue,Stealth,15,2026-02-05,20:05,Success
+Lost Mines Session 1,Charlie,Mage Marcus,Spell Cast,14,2026-02-05,20:10,Hit
+Lost Mines Session 1,David,Paladin Dave,Heal,11,2026-02-05,20:15,Success
+Lost Mines Session 1,Alice,Thordak the Barbarian,Attack,12,2026-02-05,20:20,Hit
+Lost Mines Session 2,Bob,Elara the Rogue,Pickpocket,16,2026-02-12,20:00,Critical Hit
+Lost Mines Session 2,Charlie,Mage Marcus,Spell Cast,13,2026-02-12,20:05,Hit
+Lost Mines Session 2,David,Paladin Dave,Attack,10,2026-02-12,20:10,Miss
+Lost Mines Session 2,Alice,Thordak the Barbarian,Defense,15,2026-02-12,20:15,Success
+Lost Mines Session 2,Bob,Elara the Rogue,Backstab,18,2026-02-12,20:20,Critical Hit
+Curse of Strahd Session 1,Charlie,Mage Marcus,Spell Cast,17,2026-02-19,21:00,Critical Hit
+Curse of Strahd Session 1,Alice,Thordak the Barbarian,Attack,11,2026-02-19,21:05,Hit
+Curse of Strahd Session 1,Bob,Elara the Rogue,Stealth,13,2026-02-19,21:10,Success
+Curse of Strahd Session 1,David,Paladin Dave,Detect Evil,15,2026-02-19,21:15,Success
+Curse of Strahd Session 1,Eve,Cleric Eve,Turn Undead,14,2026-02-19,21:20,Success
+Curse of Strahd Session 2,Alice,Thordak the Barbarian,Attack,12,2026-02-26,21:00,Hit
+Curse of Strahd Session 2,Bob,Elara the Rogue,Pickpocket,15,2026-02-26,21:05,Success
+Curse of Strahd Session 2,Charlie,Mage Marcus,Spell Cast,16,2026-02-26,21:10,Critical Hit
+Curse of Strahd Session 2,David,Paladin Dave,Heal,12,2026-02-26,21:15,Success
+Curse of Strahd Session 2,Eve,Cleric Eve,Prayer,13,2026-02-26,21:20,Success
+Waterdeep Heist Session 1,Bob,Elara the Rogue,Stealth,18,2026-03-05,19:30,Critical Hit
+Waterdeep Heist Session 1,Charlie,Mage Marcus,Spell Cast,14,2026-03-05,19:35,Hit
+Waterdeep Heist Session 1,David,Paladin Dave,Attack,11,2026-03-05,19:40,Hit
+Waterdeep Heist Session 1,Eve,Cleric Eve,Bless,16,2026-03-05,19:45,Success
+Waterdeep Heist Session 1,Alice,Thordak the Barbarian,Intimidate,13,2026-03-05,19:50,Success
+Waterdeep Heist Session 2,Charlie,Mage Marcus,Spell Cast,15,2026-03-12,19:30,Hit
+Waterdeep Heist Session 2,Alice,Thordak the Barbarian,Attack,12,2026-03-12,19:35,Hit
+Waterdeep Heist Session 2,Bob,Elara the Rogue,Backstab,17,2026-03-12,19:40,Critical Hit
+Waterdeep Heist Session 2,David,Paladin Dave,Smite,14,2026-03-12,19:45,Success
+Waterdeep Heist Session 2,Eve,Cleric Eve,Heal,11,2026-03-12,19:50,Success
+Tomb of Horrors Session 1,Alice,Thordak the Barbarian,Attack,10,2026-03-19,20:00,Miss
+Tomb of Horrors Session 1,Bob,Elara the Rogue,Disarm Trap,16,2026-03-19,20:05,Success
+Tomb of Horrors Session 1,Charlie,Mage Marcus,Identify,15,2026-03-19,20:10,Success
+Tomb of Horrors Session 1,David,Paladin Dave,Prayer,13,2026-03-19,20:15,Success
+Tomb of Horrors Session 1,Eve,Cleric Eve,Detect Poison,12,2026-03-19,20:20,Success
+Tomb of Horrors Session 2,Bob,Elara the Rogue,Stealth,17,2026-03-26,20:00,Critical Hit
+Tomb of Horrors Session 2,Charlie,Mage Marcus,Spell Cast,14,2026-03-26,20:05,Hit
+Tomb of Horrors Session 2,Alice,Thordak the Barbarian,Defense,15,2026-03-26,20:10,Success
+Tomb of Horrors Session 2,David,Paladin Dave,Attack,11,2026-03-26,20:15,Hit
+Tomb of Horrors Session 2,Eve,Cleric Eve,Resurrection,18,2026-03-26,20:20,Critical Hit
+Dragon's Keep Session 3,Charlie,Mage Marcus,Spell Cast,13,2026-04-02,19:30,Hit
+Dragon's Keep Session 3,Alice,Thordak the Barbarian,Attack,14,2026-04-02,19:35,Hit
+Dragon's Keep Session 3,Bob,Elara the Rogue,Pickpocket,15,2026-04-02,19:40,Success
+Dragon's Keep Session 3,David,Paladin Dave,Smite,16,2026-04-02,19:45,Critical Hit
+Dragon's Keep Session 3,Eve,Cleric Eve,Bless,12,2026-04-02,19:50,Success
+Dragon's Keep Session 4,Alice,Thordak the Barbarian,Attack,11,2026-04-09,19:30,Hit
+Dragon's Keep Session 4,Bob,Elara the Rogue,Backstab,17,2026-04-09,19:35,Critical Hit
+Dragon's Keep Session 4,Charlie,Mage Marcus,Spell Cast,14,2026-04-09,19:40,Hit
+Dragon's Keep Session 4,David,Paladin Dave,Heal,13,2026-04-09,19:45,Success
+Dragon's Keep Session 4,Eve,Cleric Eve,Turn Undead,15,2026-04-09,19:50,Success
+Lost Mines Session 3,Bob,Elara the Rogue,Stealth,16,2026-04-16,20:00,Critical Hit
+Lost Mines Session 3,Charlie,Mage Marcus,Spell Cast,12,2026-04-16,20:05,Hit
+Lost Mines Session 3,David,Paladin Dave,Attack,13,2026-04-16,20:10,Hit
+Lost Mines Session 3,Alice,Thordak the Barbarian,Defense,14,2026-04-16,20:15,Success
+Lost Mines Session 3,Eve,Cleric Eve,Prayer,11,2026-04-16,20:20,Success
+Curse of Strahd Session 3,Charlie,Mage Marcus,Spell Cast,15,2026-04-23,21:00,Hit
+Curse of Strahd Session 3,Alice,Thordak the Barbarian,Attack,12,2026-04-23,21:05,Hit
+Curse of Strahd Session 3,Bob,Elara the Rogue,Pickpocket,14,2026-04-23,21:10,Success
+Curse of Strahd Session 3,David,Paladin Dave,Smite,17,2026-04-23,21:15,Critical Hit
+Curse of Strahd Session 3,Eve,Cleric Eve,Bless,13,2026-04-23,21:20,Success
+Waterdeep Heist Session 3,Alice,Thordak the Barbarian,Intimidate,14,2026-04-30,19:30,Success
+Waterdeep Heist Session 3,Bob,Elara the Rogue,Stealth,16,2026-04-30,19:35,Critical Hit
+Waterdeep Heist Session 3,Charlie,Mage Marcus,Spell Cast,13,2026-04-30,19:40,Hit
+Waterdeep Heist Session 3,David,Paladin Dave,Attack,11,2026-04-30,19:45,Hit
+Waterdeep Heist Session 3,Eve,Cleric Eve,Heal,15,2026-04-30,19:50,Success
+Tomb of Horrors Session 3,Bob,Elara the Rogue,Disarm Trap,17,2026-05-07,20:00,Critical Hit
+Tomb of Horrors Session 3,Charlie,Mage Marcus,Identify,14,2026-05-07,20:05,Hit
+Tomb of Horrors Session 3,Alice,Thordak the Barbarian,Attack,10,2026-05-07,20:10,Miss
+Tomb of Horrors Session 3,David,Paladin Dave,Protect,15,2026-05-07,20:15,Success
+Tomb of Horrors Session 3,Eve,Cleric Eve,Heal,16,2026-05-07,20:20,Critical Hit
+Dragon's Keep Session 1,David,Paladin Dave,Attack,13,2026-01-15,19:55,Hit
+Dragon's Keep Session 1,Eve,Cleric Eve,Heal,11,2026-01-15,20:00,Success
+Dragon's Keep Session 2,Bob,Elara the Rogue,Stealth,16,2026-01-22,19:55,Critical Hit
+Dragon's Keep Session 2,David,Paladin Dave,Smite,13,2026-01-22,20:00,Hit
+Lost Mines Session 1,Eve,Cleric Eve,Prayer,12,2026-02-05,20:25,Success
+Lost Mines Session 2,Eve,Cleric Eve,Heal,14,2026-02-12,20:25,Success
+Curse of Strahd Session 1,Alice,Thordak the Barbarian,Defense,16,2026-02-19,21:25,Success
+Curse of Strahd Session 2,Bob,Elara the Rogue,Stealth,12,2026-02-26,21:25,Hit
+Waterdeep Heist Session 1,Frank,Frank the Bard,Inspire,14,2026-03-05,20:00,Success
+Waterdeep Heist Session 2,Frank,Frank the Bard,Song of Healing,15,2026-03-12,20:00,Success
+Tomb of Horrors Session 1,Frank,Frank the Bard,Inspire,13,2026-03-19,20:25,Success
+Tomb of Horrors Session 2,Frank,Frank the Bard,Bardic Magic,14,2026-03-26,20:25,Success
+Dragon's Keep Session 3,Frank,Frank the Bard,Inspire,15,2026-04-02,20:00,Success
+Dragon's Keep Session 4,Frank,Frank the Bard,Song of Valor,16,2026-04-09,20:00,Critical Hit
+Lost Mines Session 3,Frank,Frank the Bard,Inspire,13,2026-04-16,20:25,Success
+Curse of Strahd Session 3,Frank,Frank the Bard,Counter Spell,14,2026-04-23,21:25,Success
+Waterdeep Heist Session 3,Frank,Frank the Bard,Inspire,15,2026-04-30,20:00,Success
+Tomb of Horrors Session 3,Frank,Frank the Bard,Invisibility,16,2026-05-07,20:25,Critical Hit
+Dragon's Keep Session 1,Charlie,Mage Marcus,Defense,9,2026-01-15,20:05,Miss
+Dragon's Keep Session 2,Eve,Cleric Eve,Bless,15,2026-01-22,20:05,Success
+Lost Mines Session 1,Frank,Frank the Bard,Charm,12,2026-02-05,20:30,Success
+Lost Mines Session 2,Frank,Frank the Bard,Inspire,11,2026-02-12,20:30,Hit
+Curse of Strahd Session 1,Frank,Frank the Bard,Song of Protection,13,2026-02-19,21:30,Success
+Curse of Strahd Session 2,Frank,Frank the Bard,Counter Spell,16,2026-02-26,21:30,Critical Hit
+Waterdeep Heist Session 1,Alice,Thordak the Barbarian,Rage,15,2026-03-05,20:05,Success
+Waterdeep Heist Session 2,Alice,Thordak the Barbarian,Rage,14,2026-03-12,20:05,Success
+Tomb of Horrors Session 1,Alice,Thordak the Barbarian,Rage,17,2026-03-19,20:30,Critical Hit
+Tomb of Horrors Session 2,Alice,Thordak the Barbarian,Defense,12,2026-03-26,20:30,Success
+Dragon's Keep Session 3,Bob,Elara the Rogue,Shadow Clone,13,2026-04-02,20:05,Hit
+Dragon's Keep Session 4,Charlie,Mage Marcus,Explosion,15,2026-04-09,20:05,Success
+Lost Mines Session 3,Bob,Elara the Rogue,Backstab,18,2026-04-16,20:30,Critical Hit
+Curse of Strahd Session 3,David,Paladin Dave,Holy Strike,14,2026-04-23,21:30,Success
+Waterdeep Heist Session 3,Bob,Elara the Rogue,Shadow Clone,16,2026-04-30,20:05,Critical Hit
+Tomb of Horrors Session 3,David,Paladin Dave,Holy Prayer,13,2026-05-07,20:30,Success
+Dragon's Keep Session 1,Bob,Elara the Rogue,Escape,11,2026-01-15,20:10,Hit
+Dragon's Keep Session 2,Alice,Thordak the Barbarian,Rage,14,2026-01-22,20:10,Success
+Lost Mines Session 1,David,Paladin Dave,Detect Undead,15,2026-02-05,20:35,Success
+Lost Mines Session 2,Alice,Thordak the Barbarian,Attack,13,2026-02-12,20:35,Hit
+Curse of Strahd Session 1,Bob,Elara the Rogue,Escape,14,2026-02-19,21:35,Success
+Curse of Strahd Session 2,David,Paladin Dave,Divine Protection,17,2026-02-26,21:35,Critical Hit
+Waterdeep Heist Session 1,David,Paladin Dave,Detect Magic,12,2026-03-05,20:10,Success
+Waterdeep Heist Session 2,Bob,Elara the Rogue,Stealth,15,2026-03-12,20:10,Success
+Tomb of Horrors Session 1,Eve,Cleric Eve,Sanctuary,16,2026-03-19,20:35,Critical Hit
+Tomb of Horrors Session 2,Charlie,Mage Marcus,Time Warp,13,2026-03-26,20:35,Hit
+Dragon's Keep Session 3,Alice,Thordak the Barbarian,Whirlwind Attack,18,2026-04-02,20:10,Critical Hit
+Dragon's Keep Session 4,Bob,Elara the Rogue,Pickpocket,14,2026-04-09,20:10,Success
+Lost Mines Session 3,Charlie,Mage Marcus,Inferno,15,2026-04-16,20:35,Success
+Curse of Strahd Session 3,Eve,Cleric Eve,Resurrection,16,2026-04-23,21:35,Critical Hit
+Waterdeep Heist Session 3,Charlie,Mage Marcus,Magic Missile,13,2026-04-30,20:10,Hit
+Tomb of Horrors Session 3,Bob,Elara the Rogue,Evasion,17,2026-05-07,20:35,Critical Hit
+Dragon's Keep Session 1,Frank,Frank the Bard,Distract,12,2026-01-15,20:15,Success
+Dragon's Keep Session 2,Frank,Frank the Bard,Inspire,13,2026-01-22,20:15,Success
+Lost Mines Session 1,Eve,Cleric Eve,Mend,14,2026-02-05,20:40,Success
+Lost Mines Session 2,David,Paladin Dave,Smite Evil,15,2026-02-12,20:40,Success
+Curse of Strahd Session 1,David,Paladin Dave,Channel Divinity,16,2026-02-19,21:40,Critical Hit
+Curse of Strahd Session 2,Eve,Cleric Eve,Word of Recall,12,2026-02-26,21:40,Success
+Waterdeep Heist Session 1,Eve,Cleric Eve,Guidance,13,2026-03-05,20:15,Success
+Waterdeep Heist Session 2,Eve,Cleric Eve,Divine Favor,14,2026-03-12,20:15,Success
+Tomb of Horrors Session 1,David,Paladin Dave,Lay on Hands,15,2026-03-19,20:40,Success
+Tomb of Horrors Session 2,David,Paladin Dave,Holy Strike,16,2026-03-26,20:40,Critical Hit
+Dragon's Keep Session 3,Eve,Cleric Eve,Heal All,14,2026-04-02,20:15,Success
+Dragon's Keep Session 4,David,Paladin Dave,Divine Protection,15,2026-04-09,20:15,Success
+Lost Mines Session 3,Eve,Cleric Eve,Mass Heal,13,2026-04-16,20:40,Hit
+Curse of Strahd Session 3,Alice,Thordak the Barbarian,Primal Strike,17,2026-04-23,21:40,Critical Hit
+Waterdeep Heist Session 3,David,Paladin Dave,Avenging Strike,14,2026-04-30,20:15,Success
+Tomb of Horrors Session 3,Eve,Cleric Eve,Divine Intervention,18,2026-05-07,20:40,Critical Hit
