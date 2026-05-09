@@ -3,52 +3,237 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pivot Chart Library Comparison</title>
+    <title>Python Pivot Chart Libraries Comparison</title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
         body {
-            font-family: Arial, sans-serif;
-            max-width: 800px;
-            margin: 50px auto;
-            padding: 20px;
-        }
-        h1 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
             color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
         }
-        .library {
-            margin: 20px 0;
-            padding: 10px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
+        
+        header {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 2rem;
+            text-align: center;
         }
-        a {
-            color: #0066cc;
+        
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .intro {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .intro h2 {
+            color: #667eea;
+            margin-bottom: 1rem;
+        }
+        
+        .libraries-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .library-card {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .library-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+        }
+        
+        .library-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+        }
+        
+        .library-header h3 {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .library-content {
+            padding: 1.5rem;
+        }
+        
+        .library-content p {
+            margin-bottom: 1rem;
+            font-size: 0.95rem;
+            color: #666;
+        }
+        
+        .library-content ul {
+            list-style: none;
+            margin-bottom: 1.5rem;
+        }
+        
+        .library-content li {
+            padding: 0.5rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+            font-size: 0.9rem;
+        }
+        
+        .library-content li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #667eea;
+            font-weight: bold;
+        }
+        
+        .view-example {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 4px;
             text-decoration: none;
+            transition: background 0.3s ease;
+            text-align: center;
+            width: 100%;
+            font-weight: bold;
         }
-        a:hover {
-            text-decoration: underline;
+        
+        .view-example:hover {
+            background: #764ba2;
+        }
+        
+        .footer {
+            text-align: center;
+            color: white;
+            padding: 2rem;
+            margin-top: 2rem;
         }
     </style>
 </head>
 <body>
-    <h1>Pivot Chart Library Comparison</h1>
-    <p>Interactive comparisons of different pivot chart libraries using pen & paper RPG session data.</p>
-
-    <div class="library">
-        <h2>PivotTable.js</h2>
-        <p>A lightweight JavaScript pivot table library.</p>
-        <a href="pivottablejs.html">View Interactive Chart →</a>
+    <header>
+        <h1>🎲 Python Pivot Chart Libraries Comparison</h1>
+        <p>Interactive Data Visualization with RPG Session Data</p>
+    </header>
+    
+    <div class="container">
+        <div class="intro">
+            <h2>About This Project</h2>
+            <p>
+                This project compares four popular Python libraries for creating interactive pivot charts and data visualizations:
+                <strong>PivotTable.js</strong>, <strong>hvPlot</strong>, <strong>Plotly</strong>, and <strong>Bokeh</strong>.
+            </p>
+            <p>
+                We use RPG game session data to demonstrate the capabilities of each library, showcasing how they handle
+                data aggregation, interactivity, and visualization customization.
+            </p>
+        </div>
+        
+        <div class="libraries-grid">
+            <!-- PivotTable.js Card -->
+            <div class="library-card">
+                <div class="library-header">
+                    <h3>PivotTable.js</h3>
+                </div>
+                <div class="library-content">
+                    <p>JavaScript library for creating interactive pivot tables in the browser.</p>
+                    <ul>
+                        <li>Drag-and-drop interface</li>
+                        <li>Multiple aggregation types</li>
+                        <li>Custom renderers</li>
+                        <li>Pure JavaScript</li>
+                    </ul>
+                    <a href="pivottablejs.html" class="view-example">View Example →</a>
+                </div>
+            </div>
+            
+            <!-- hvPlot Card -->
+            <div class="library-card">
+                <div class="library-header">
+                    <h3>hvPlot</h3>
+                </div>
+                <div class="library-content">
+                    <p>High-level plotting API built on Bokeh and HoloViews.</p>
+                    <ul>
+                        <li>Pandas-like syntax</li>
+                        <li>Bokeh backend</li>
+                        <li>Interactive widgets</li>
+                        <li>Quick prototyping</li>
+                    </ul>
+                    <a href="hvplot.html" class="view-example">View Example →</a>
+                </div>
+            </div>
+            
+            <!-- Plotly Card -->
+            <div class="library-card">
+                <div class="library-header">
+                    <h3>Plotly</h3>
+                </div>
+                <div class="library-content">
+                    <p>Powerful library for creating interactive, publication-quality visualizations.</p>
+                    <ul>
+                        <li>Rich chart types</li>
+                        <li>Hover information</li>
+                        <li>3D support</li>
+                        <li>Statistical charts</li>
+                    </ul>
+                    <a href="plotly.html" class="view-example">View Example →</a>
+                </div>
+            </div>
+            
+            <!-- Bokeh Card -->
+            <div class="library-card">
+                <div class="library-header">
+                    <h3>Bokeh</h3>
+                </div>
+                <div class="library-content">
+                    <p>Interactive visualization library for modern web browsers.</p>
+                    <ul>
+                        <li>Flexible API</li>
+                        <li>Server-based apps</li>
+                        <li>Large datasets</li>
+                        <li>Custom interactions</li>
+                    </ul>
+                    <a href="bokeh.html" class="view-example">View Example →</a>
+                </div>
+            </div>
+        </div>
     </div>
-
-    <div class="library">
-        <h2>hvPlot</h2>
-        <p>A high-level plotting API for pandas and xarray.</p>
-        <a href="hvplot.html">View Interactive Chart →</a>
-    </div>
-
-    <div class="library">
-        <h2>Plotly</h2>
-        <p>Interactive graphing library for Python.</p>
-        <a href="plotly.html">View Interactive Chart →</a>
-    </div>
+    
+    <footer class="footer">
+        <p>📊 Compare visualization libraries for your Python data projects</p>
+    </footer>
 </body>
 </html>
